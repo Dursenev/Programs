@@ -27,7 +27,7 @@ int main()
 	cin >> x;
 	cout << "Введите номер числа Фибоначчи для второго числа (46) :";
 	cin >> y;
-	polyn = polynom(x,y);
+	polyn = polynom(Fibonacci(x),Fibonacci(y));
 	cout.precision(35);
 	cout << "F(x,y) = " << polyn << endl;
 	return 0;
